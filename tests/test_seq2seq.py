@@ -98,7 +98,7 @@ class TestSeq2Seq(unittest.TestCase):
             lr=LR,
             batchsize=BATCH_SIZE,
             num_epochs=NUM_EPOCHS * 2,
-            numthreads=1,
+            numthreads=2,
             no_cuda=True,
             embeddingsize=16,
             hiddensize=16,
